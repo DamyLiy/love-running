@@ -186,6 +186,19 @@ hr {
     color: #fafafa;
 }
 
+/*Gallery Page*/
+#photos img {
+    /*Make images responsive*/
+    width: 100%;
+    /*To keep gap between images if images doesn't load*/
+    line-height: 1rem;
+}
+
+#photos {
+    /*Remove gaps between inline-block elements (these photos considered as text)*/
+    line-height: 0;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
